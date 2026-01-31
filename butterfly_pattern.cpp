@@ -2,7 +2,8 @@
 using namespace std;
 int main() {
     int n=4;
-    
+
+    //Upper half
     for(int i=0; i<n; i++){
         //loop1
         for(int j=0; j<i+1; j++){
@@ -21,7 +22,8 @@ int main() {
         }
         cout<<endl;
     }
-    
+
+    //Lower half
     for(int i=0; i<n; i++){
         //loop3
         for(int j=0; j<n-i; j++){
