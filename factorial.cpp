@@ -1,12 +1,14 @@
 #include <iostream>
 using namespace std;
-int main(){
+int factorial(int n){
     int fact = 1;
-    int n;
-    cout<<"Enter value for n to calculate factorial: "<<endl;
-    cin>>n;
     for(int i=1; i<=n; i++){
         fact*=i;
     }
-    cout<<fact<<endl;
+    return fact;
+}
+int main(){
+    int num = 5;
+    cout<<"Factorial of "<<num<<" is "<<factorial(num)<<endl;
+    return 0;
 }
