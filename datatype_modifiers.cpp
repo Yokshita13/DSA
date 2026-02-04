@@ -6,7 +6,9 @@ int main() {
     cout<<sizeof(long int)<<endl;
     cout<<sizeof(long long int)<<endl;
     cout<<sizeof(short int)<<endl;
-    cout<<sizeof(signed int)<<endl;
-    cout<<sizeof(unsigned int)<<endl;
+    signed int a = -10;
+    cout<<a<<endl;
+    unsigned int x = -10;
+    cout<<x<<endl;
     return 0;
 }
