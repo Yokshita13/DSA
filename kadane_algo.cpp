@@ -14,6 +14,6 @@ int main() {
             currSum = 0;
         }
     }
-    cout<<maxSum;
+    cout<<maxSum; 
     return 0;
 }
