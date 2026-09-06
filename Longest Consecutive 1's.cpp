@@ -1,5 +1,5 @@
 class Solution {
-  public:
+ public:
     int maxConsecutiveOnes(int n) {
         int count = 0;
         int ans = 0;
